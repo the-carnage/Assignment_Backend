@@ -10,21 +10,21 @@ async function seed() {
 
   const teacher = await User.create({
     name: 'Mr. Smith',
-    email: 'teacher@upaay.com',
+    email: 'teacher@mail.com',
     password: teacherPassword,
     role: 'teacher'
   });
 
   const student = await User.create({
     name: 'Jane Doe',
-    email: 'student@upaay.com',
+    email: 'student@mail.com',
     password: studentPassword,
     role: 'student'
   });
 
   const student2 = await User.create({
     name: 'John Doe',
-    email: 'student2@upaay.com',
+    email: 'student2@mail.com',
     password: studentPassword,
     role: 'student'
   });
@@ -46,8 +46,8 @@ async function seed() {
   });
 
   console.log('Database seeded successfully.');
-  console.log('Teacher: teacher@upaay.com / teacher123');
-  console.log('Student: student@upaay.com / student123');
+  console.log('Teacher: teacher@mail.com / teacher123');
+  console.log('Student: student@mail.com / student123');
   process.exit();
 }
 

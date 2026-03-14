@@ -37,8 +37,8 @@ This is the backend for the Assignment Workflow Portal, built with Node.js, Expr
    node seed.js
    ```
    **Test Credentials:**
-   - Teacher: `teacher@upaay.com` / `teacher123`
-   - Student: `student@upaay.com` / `student123`
+   - Teacher: `teacher@mail.com` / `teacher123`
+   - Student: `student@mail.com` / `student123`
 
 4. **Start Server**
    ```bash
